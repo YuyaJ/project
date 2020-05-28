@@ -7,6 +7,6 @@ package com.project.project.controller.demo.singleton;
  **/
 
 public class TestHungry {
-    SingletonHungry singletonHungry1 = SingletonHungry.instance;
-    SingletonHungry singletonHungry2 = SingletonHungry.instance;
+//    SingletonHungry singletonHungry1 = SingletonHungry.instance;
+//    SingletonHungry singletonHungry2 = SingletonHungry.instance;
 }
