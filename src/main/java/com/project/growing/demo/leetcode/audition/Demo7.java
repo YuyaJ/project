@@ -1,5 +1,8 @@
 package com.project.growing.demo.leetcode.audition;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * @author: 87799
  * @date: 2020/5/30
@@ -22,11 +25,11 @@ package com.project.growing.demo.leetcode.audition;
  **/
 
 public class Demo7 {
+    private final static Logger logger = LoggerFactory.getLogger(Demo7.class);
     public static void rotate(int[][] matrix) {
 
     }
 
     public static void main(String[] args) {
-
     }
 }

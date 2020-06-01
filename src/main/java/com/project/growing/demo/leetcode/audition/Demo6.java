@@ -11,14 +11,45 @@ package com.project.growing.demo.leetcode.audition;
  **/
 
 public class Demo6 {
-    public static String compressString(String s) {
+    public static String compressString(String S) {
+        // 为null 返回空字符串
+        if (S == null) {
+            return "";
+        }
+        int length = S.length();
+        StringBuffer sb = new StringBuffer();
 
+        // 长度为0 和 1 返回本身
+        if (length == 0 || length == 1) {
+            return S;
+        }
 
-        return s;
+        char[] strs = S.toCharArray();
+
+        char temp = strs[0];
+        int count = 1;
+
+        for (int i = 1;i < strs.length; i++) {
+            if (temp == strs[i]) {
+                count++;
+            } else {
+                sb.append(temp).append(count);
+                count = 1;
+                temp= strs[i];
+            }
+        }
+        // 添加最后一个元素 判断的结果
+        sb.append(temp).append(count);
+
+        if (length <= sb.length()) {
+            return S;
+        }
+
+        return sb.toString();
     }
 
     public static void main(String[] args) {
-        String s = "aabcccccaaa";
+        String s = "a";
         System.out.println(compressString(s));
     }
 }
