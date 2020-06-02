@@ -1,4 +1,4 @@
-package com.project.growing.demo.threaddemo;
+package com.project.growing.demo.threadpool;
 
 import java.util.concurrent.*;
 

@@ -1,4 +1,4 @@
-package com.project.growing.demo.threddemo;
+package com.project.growing.demo.thread;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
