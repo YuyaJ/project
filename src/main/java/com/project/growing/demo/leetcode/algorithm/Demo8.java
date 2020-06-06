@@ -11,23 +11,21 @@ package com.project.growing.demo.leetcode.algorithm;
  **/
 
 public class Demo8 {
-    public int[] spiralOrder(int[][] matrix) {
-        int[] nums = new int[matrix.length];
+    public static int[] spiralOrder(int[][] matrix) {
+        int[] str = new int[matrix.length];
 
 
-        return nums;
+        return str;
     }
 
     public static void main(String[] args) {
-        String s1 = new StringBuilder("go").append("od").toString();
-        System.out.println(s1.intern().equals(s1));
-        System.out.println(s1.intern().hashCode());
-        System.out.println(s1.hashCode());
-        System.out.println(s1.intern() == s1);
+//        int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+//        System.out.println(matrix);
+//        System.out.println(spiralOrder(matrix));
+
         String s2 = new StringBuilder("ja").append("va").toString();
-        System.out.println(s2.intern().equals(s2));
-        System.out.println(s2.intern().hashCode());
-        System.out.println(s2.hashCode());
         System.out.println(s2.intern() == s2);
+        String s1 = new StringBuilder("go").append("od").toString();
+        System.out.println(s1.intern() == s1);
     }
 }
