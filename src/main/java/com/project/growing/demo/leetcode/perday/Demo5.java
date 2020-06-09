@@ -1,4 +1,4 @@
-package com.project.growing.demo.leetcode.algorithm;
+package com.project.growing.demo.leetcode.perday;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 /**
  * @author shenya.ji.o
  * @date 2020/6/4
- * @description: 除自身以外数组的乘积
+ * @description: 每日一题-除自身以外数组的乘积
  * 给你一个长度为 n 的整数数组 nums，其中 n > 1，返回输出数组 output ，其中 output[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积。
  * 示例:
  * 输入: [1,2,3,4]
@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * 说明: 请不要使用除法，且在 O(n) 时间复杂度内完成此题。
  **/
 
-public class Demo7 {
+public class Demo5 {
     public static int[] productExceptSelf(int[] nums) {
         int length = nums.length;
 

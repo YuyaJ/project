@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.audition;
 /**
  * @author shenya.ji.o
  * @date 2020/5/29
- * @description: 判断字符是否唯一
+ * @description: 面试题 01.01-判断字符是否唯一
  * 实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
  * 示例 1：
  * 输入: s = "leetcode"

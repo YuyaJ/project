@@ -1,4 +1,4 @@
-package com.project.growing.demo.leetcode.algorithm;
+package com.project.growing.demo.leetcode.perday;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /**
  * @author shenya.ji.o
  * @date 2020/6/1
- * @description: 拥有最多糖果的孩纸
+ * @description: 每日一题-拥有最多糖果的孩纸
  * 给你一个数组 candies 和一个整数 extraCandies ，其中 candies[i] 代表第 i 个孩子拥有的糖果数目。
  * 对每一个孩子，检查是否存在一种方案，将额外的 extraCandies 个糖果分配给孩子们之后，此孩子有 最多 的糖果。注意，允许有多个孩子同时拥有 最多 的糖果数目。
  * 示例 1：
@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
  * 孩子 5 有 3 个糖果，如果他得到至少 2 个额外糖果，那么他将成为拥有最多糖果的孩子。
  **/
 
-public class Demo4 {
+public class Demo2 {
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> resultList = new ArrayList<>();
         // 获取目前糖果最多的孩纸

@@ -1,4 +1,4 @@
-package com.project.growing.demo.leetcode.algorithm;
+package com.project.growing.demo.leetcode.perday;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author: 87799
  * @date: 2020/6/7
- * @description: 单词接龙Ⅱ
+ * @description: 每日一题-单词接龙Ⅱ
  * 给定两个单词（beginWord 和 endWord）和一个字典 wordList，找出所有从 beginWord 到 endWord 的最短转换序列。转换需遵循如下规则：
  * 每次转换只能改变一个字母。
  * 转换过程中的中间单词必须是字典中的单词。
@@ -35,7 +35,7 @@ import java.util.List;
  * 解释: endWord "cog" 不在字典中，所以不存在符合要求的转换序列。
  **/
 
-public class Demo10 {
+public class Demo8 {
     public static List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         List<List<String>> list = new ArrayList<>();
 

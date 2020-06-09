@@ -1,4 +1,4 @@
-package com.project.growing.demo.leetcode.algorithm;
+package com.project.growing.demo.leetcode.perday;
 
 import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 /**
  * @author: 87799
  * @date: 2020/6/6
- * @description: 最长连续序列
+ * @description: 每日一题-最长连续序列
  * 给定一个未排序的整数数组，找出最长连续序列的长度。
  * 要求算法的时间复杂度为 O(n)。
  * 示例:
@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * 解释: 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。
  **/
 
-public class Demo9 {
+public class Demo7 {
     public static int longestConsecutive(int[] nums) {
         int length = nums.length;
 
