@@ -24,19 +24,14 @@ public class Demo1 {
         if (length == 1) {
             return nums[0];
         }
-        // 记录当前前一次 金额 first
-        // 计算出前两次 最大金额second
-        int first = nums[0],second = Math.max(nums[0], nums[1]);
-        for (int i = 2; i < length; i++) {
-            // i-1最大金额 copy
-            int temp = second;
-            // 如果选择计算当前金额 当前金额 加上i-2 之前的最大金额
-            // 否则 选择i-1 最大金额
-            second = Math.max(nums[i]+first, second);
-            // i-1 最大金额 copy first
-            first = temp;
+
+        int[] dp = new int[length+1];
+        dp[0] = 0;
+        dp[1] = nums[0];
+        for (int i = 2; i <= length; i++) {
+            dp[i] = Math.max(dp[i-1], dp[i-2]+nums[i-1]);
         }
-        return second;
+        return dp[length];
     }
 
     public static void main(String[] args) {
