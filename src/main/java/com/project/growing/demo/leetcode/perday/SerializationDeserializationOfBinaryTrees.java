@@ -18,7 +18,7 @@ package com.project.growing.demo.leetcode.perday;
  * 说明: 不要使用类的成员 / 全局 / 静态变量来存储状态，你的序列化和反序列化算法应该是无状态的。
  **/
 
-public class Demo17 {
+public class SerializationDeserializationOfBinaryTrees {
     /**
      * Encodes a tree to a single string.
      *

@@ -22,7 +22,7 @@ package com.project.growing.demo.leetcode.perday;
  * 3.  2 阶 + 1 阶
  **/
 
-public class Demo14 {
+public class ClimbingStairs {
     public static int climbStairs(int n) {
         // f(x) = f(x-1) + f(x-2)
         int a = 0, b = 0, c = 0;

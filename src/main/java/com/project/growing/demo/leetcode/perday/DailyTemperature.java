@@ -11,7 +11,7 @@ import java.util.*;
  * 提示：气温 列表长度的范围是 [1, 30000]。每个气温的值的均为华氏度，都是在 [30, 100] 范围内的整数。
  **/
 
-public class Demo12 {
+public class DailyTemperature {
     public static int[] dailyTemperatures(int[] T) {
         int length = T.length;
         int[] result = new int[length];

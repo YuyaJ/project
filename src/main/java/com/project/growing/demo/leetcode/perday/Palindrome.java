@@ -19,7 +19,7 @@ import sun.security.util.Length;
  * 你能不将整数转为字符串来解决这个问题吗？
  **/
 
-public class Demo11 {
+public class Palindrome {
     public static boolean isPalindrome(int x) {
         // 特殊情况：
         // 如上所述，当 x < 0 时，x 不是回文数。

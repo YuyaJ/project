@@ -20,7 +20,7 @@ import java.util.List;
  * ]
  **/
 
-public class Demo13 {
+public class SumOfThreeNumbers {
     public static List<List<Integer>> threeSum(int[] nums) {
         int length = nums.length;
         // 排序

@@ -20,7 +20,7 @@ import java.util.Arrays;
  * 解释: 输入不存在公共前缀。
  **/
 
-public class Demo16 {
+public class LongestCommonRrefix {
 
     public static String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {

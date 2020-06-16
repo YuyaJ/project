@@ -21,7 +21,7 @@ import java.util.Arrays;
  * 输出：11361
  **/
 
-public class Demo15 {
+public class ConvertingArrayClosestTargetValue {
     public static int findBestValue(int[] arr, int target) {
         // 递增排序
         Arrays.sort(arr);
