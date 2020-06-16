@@ -13,7 +13,7 @@ package com.project.growing.demo.leetcode.algorithm;
  * 原因：342 + 465 = 807
  **/
 
-public class Demo2 {
+public class AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // 新的链表
         ListNode result = new ListNode(0);

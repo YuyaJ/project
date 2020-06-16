@@ -21,7 +21,7 @@ package com.project.growing.demo.leetcode.perday;
  * 输出：0.73278
  **/
 
-public class Demo4 {
+public class NewBlackjack {
     public static double new21Game(int N, int K, int W) {
         // TODO 仔细研究
         double[] dp = new double[K+W];

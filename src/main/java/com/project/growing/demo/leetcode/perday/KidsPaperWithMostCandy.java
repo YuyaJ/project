@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
  * 孩子 5 有 3 个糖果，如果他得到至少 2 个额外糖果，那么他将成为拥有最多糖果的孩子。
  **/
 
-public class Demo2 {
+public class KidsPaperWithMostCandy {
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
 
         int n = candies.length;

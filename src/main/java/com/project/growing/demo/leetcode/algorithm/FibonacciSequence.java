@@ -14,7 +14,7 @@ package com.project.growing.demo.leetcode.algorithm;
  * 输出：1
  **/
 
-public class Demo3 {
+public class FibonacciSequence {
     public static int fib(int n) {
 
         if (n == 0) {

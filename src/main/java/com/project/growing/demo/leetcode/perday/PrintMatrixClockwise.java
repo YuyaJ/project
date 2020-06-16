@@ -13,7 +13,7 @@ package com.project.growing.demo.leetcode.perday;
  * 输出：[1,2,3,4,8,12,11,10,9,5,6,7]
  **/
 
-public class Demo6 {
+public class PrintMatrixClockwise {
     public static int[] spiralOrder(int[][] matrix) {
         // TODO
         int[] str = new int[matrix.length];

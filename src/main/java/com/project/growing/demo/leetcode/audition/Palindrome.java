@@ -16,7 +16,7 @@ import java.util.Set;
  * 输出：true（排列有"tacocat"、"atcocta"，等等）
  **/
 
-public class Demo4 {
+public class Palindrome {
     public static boolean canPermutePalindrome(String s) {
         Set set = new HashSet();
         for (int i = 0; i < s.length(); i++) {

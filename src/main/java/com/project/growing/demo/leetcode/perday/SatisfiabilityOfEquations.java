@@ -27,7 +27,7 @@ import java.util.Arrays;
  * 输出：true
  **/
 
-public class Demo9 {
+public class SatisfiabilityOfEquations {
     public static boolean equationsPossible(String[] equations) {
         int length = equations.length;
         int[] parent = new int[26];

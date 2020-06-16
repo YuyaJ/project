@@ -25,7 +25,7 @@ import java.util.Map;
  *      请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
  **/
 
-public class Demo5 {
+public class LongestStringWithoutRepeated {
     public static int lengthOfLongestSubstring(String s) {
 
         Map<Character, Integer> map = new HashMap<>(16);

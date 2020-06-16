@@ -10,7 +10,7 @@ package com.project.growing.demo.leetcode.audition;
  * 输出: false
  **/
 
-public class Demo1 {
+public class CharacterIsUnique {
 
     public static boolean isUnique(String astr) {
         for (char str : astr.toCharArray()) {

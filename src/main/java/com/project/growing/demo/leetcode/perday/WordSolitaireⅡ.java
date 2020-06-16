@@ -35,7 +35,7 @@ import java.util.List;
  * 解释: endWord "cog" 不在字典中，所以不存在符合要求的转换序列。
  **/
 
-public class Demo8 {
+public class WordSolitaireⅡ {
     public static List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         // TODO
         List<List<String>> list = new ArrayList<>();

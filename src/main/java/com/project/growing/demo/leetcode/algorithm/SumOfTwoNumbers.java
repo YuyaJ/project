@@ -14,7 +14,7 @@ import java.util.*;
  * 所以返回 [0, 1]
  **/
 
-public class Demo1 {
+public class SumOfTwoNumbers {
     public static int[] twoSum(int[] nums, int target) {
 
         Map<Integer, Integer> map = new HashMap<>(16);

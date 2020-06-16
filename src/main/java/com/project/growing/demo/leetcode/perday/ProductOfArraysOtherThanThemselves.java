@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * 说明: 请不要使用除法，且在 O(n) 时间复杂度内完成此题。
  **/
 
-public class Demo5 {
+public class ProductOfArraysOtherThanThemselves {
     public static int[] productExceptSelf(int[] nums) {
         int length = nums.length;
 

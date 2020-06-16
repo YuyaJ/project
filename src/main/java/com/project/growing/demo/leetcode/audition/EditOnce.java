@@ -12,7 +12,7 @@ package com.project.growing.demo.leetcode.audition;
  * 输出: True
  **/
 
-public class Demo5 {
+public class EditOnce {
     public static boolean oneEditAway(String first, String second) {
         if (first == second) {
             return true;

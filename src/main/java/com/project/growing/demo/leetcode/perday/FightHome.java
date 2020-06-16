@@ -14,7 +14,7 @@ package com.project.growing.demo.leetcode.perday;
  *      偷窃到的最高金额 = 1 + 3 = 4 。
  **/
 
-public class Demo1 {
+public class FightHome {
 
     public static int rob(int[] nums) {
         int length = nums.length;

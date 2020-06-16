@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * 解释: 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。
  **/
 
-public class Demo7 {
+public class LongestContinuousSequence {
     public static int longestConsecutive(int[] nums) {
         int length = nums.length;
 

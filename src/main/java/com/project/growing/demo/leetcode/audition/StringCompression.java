@@ -10,7 +10,7 @@ package com.project.growing.demo.leetcode.audition;
  *  输出："a2b1c5a3"
  **/
 
-public class Demo6 {
+public class StringCompression {
     public static String compressString(String S) {
         // 为null 返回空字符串
         if (S == null) {

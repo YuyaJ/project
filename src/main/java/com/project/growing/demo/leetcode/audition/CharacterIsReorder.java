@@ -12,7 +12,7 @@ import java.util.Arrays;
  * 输出: true
  **/
 
-public class Demo2 {
+public class CharacterIsReorder {
 
     public static boolean CheckPermutation(String s1, String s2) {
         if (s1 == s2) {

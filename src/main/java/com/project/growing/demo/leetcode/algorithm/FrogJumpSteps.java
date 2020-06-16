@@ -14,7 +14,7 @@ package com.project.growing.demo.leetcode.algorithm;
  * 输出：21
  **/
 
-public class Demo4 {
+public class FrogJumpSteps {
 
     public static int numWays(int n) {
         // a=dp[0] b=dp[1] sum=dp[i]

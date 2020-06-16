@@ -24,7 +24,7 @@ import org.slf4j.LoggerFactory;
  * ]
  **/
 
-public class Demo7 {
+public class MatrixTranspose {
     public static void rotate(int[][] matrix) {
         // TODO
     }

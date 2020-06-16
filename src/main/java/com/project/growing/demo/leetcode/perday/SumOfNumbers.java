@@ -10,7 +10,7 @@ package com.project.growing.demo.leetcode.perday;
  * 输出: 6
  **/
 
-public class Demo3 {
+public class SumOfNumbers {
     public static int sumNums(int n) {
         // 仔细看看
         boolean flag = n > 0 && (n+=sumNums(n-1)) > 0;

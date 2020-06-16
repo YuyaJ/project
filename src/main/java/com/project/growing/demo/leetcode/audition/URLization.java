@@ -10,14 +10,14 @@ package com.project.growing.demo.leetcode.audition;
  *  输出："Mr%20John%20Smith"
  **/
 
-public class Demo3 {
+public class URLization {
     public static String replaceSpaces(String S, int length) {
         // 1.API
 //        return S.substring(0, length).replace(" ", "%20");
 
         // 2.StringBuffer
 //        StringBuffer sb = new StringBuffer();
-//        for (int i = 0; i < length; i++) {
+//        for (int i = 0; i < length; i++) {否互为字符重排
 //            if (S.charAt(i) == ' ') {
 //                sb.append("%20");
 //            } else {
