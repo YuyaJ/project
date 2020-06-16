@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.algorithm;
 /**
  * @author shenya.ji.o
  * @date 2020/6/9
- * @description: 斐波那契数列
+ * @description: 斐波那契数列(动态规划)
  * 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项。斐波那契数列的定义如下：
  * F(0) = 0,   F(1) = 1
  * F(N) = F(N - 1) + F(N - 2), 其中 N > 1.

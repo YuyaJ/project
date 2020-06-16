@@ -20,4 +20,21 @@ package com.project.growing.demo.leetcode.audition;
  **/
 
 public class Demo8 {
+    public static boolean isSymmetric(TreeNode root) {
+        // TODO
+
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+
+    }
+
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
 }

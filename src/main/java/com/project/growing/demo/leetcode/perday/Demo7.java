@@ -25,6 +25,10 @@ public class Demo7 {
             return 0;
         }
 
+        Arrays.sort(nums);
+
+        Set<Integer> numSet = new HashSet<>();
+
         int result = 0;
         // 数组排序
         List<Integer> tempList = Arrays.stream(nums).boxed().distinct().sorted().collect(Collectors.toList());

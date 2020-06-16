@@ -9,8 +9,6 @@ package com.project.growing.demo;
 
 public class EnumUse {
     public static void main(String[] args) {
-        // TODO
-        // FIXME
         // 枚举静态导入包，直接使用常量即可
         EnumDemo enumDemo1 = EnumDemo.FRIDAY;
         EnumDemo enumDemo = EnumDemo.FRIDAY;

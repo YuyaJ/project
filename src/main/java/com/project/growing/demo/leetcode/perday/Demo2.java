@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /**
  * @author shenya.ji.o
  * @date 2020/6/1
- * @description: 每日一题-拥有最多糖果的孩纸
+ * @description: 每日一题-拥有最多糖果的孩纸(枚举)
  * 给你一个数组 candies 和一个整数 extraCandies ，其中 candies[i] 代表第 i 个孩子拥有的糖果数目。
  * 对每一个孩子，检查是否存在一种方案，将额外的 extraCandies 个糖果分配给孩子们之后，此孩子有 最多 的糖果。注意，允许有多个孩子同时拥有 最多 的糖果数目。
  * 示例 1：
@@ -25,18 +25,30 @@ import java.util.stream.Collectors;
 
 public class Demo2 {
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
-        List<Boolean> resultList = new ArrayList<>();
-        // 获取目前糖果最多的孩纸
-        int max = Arrays.stream(candies).max().getAsInt();
-        // int[] -> List<Integer>
-        // 1.先转成stream流 2.boxed 转成Integer 3.map 装成Boolean 4.最后转成List<Boolean>
-        resultList = Arrays.stream(candies).boxed().map(item -> item+extraCandies >= max).collect(Collectors.toList());
 
-        return resultList;
+        int n = candies.length;
+        int maxCandies = 0;
+        for (int i = 0; i < n; ++i) {
+            maxCandies = Math.max(maxCandies, candies[i]);
+        }
+        List<Boolean> ret = new ArrayList<Boolean>();
+        for (int i = 0; i < n; ++i) {
+            ret.add(candies[i] + extraCandies >= maxCandies);
+        }
+        return ret;
+
+//        List<Boolean> resultList = new ArrayList<>();
+//        // 获取目前糖果最多的孩纸
+//        int max = Arrays.stream(candies).max().getAsInt();
+//        // int[] -> List<Integer>
+//        // 1.先转成stream流 2.boxed 转成Integer 3.map 装成Boolean 4.最后转成List<Boolean>
+//        resultList = Arrays.stream(candies).boxed().map(item -> item+extraCandies >= max).collect(Collectors.toList());
+//
+//        return resultList;
     }
 
     public static void main(String[] args) {
-        int[] candies = {12,1,12};
+        int[] candies = {12, 1, 12};
         int extraCandies = 10;
         List<Boolean> list = kidsWithCandies(candies, extraCandies);
         System.out.println(list);

@@ -33,10 +33,11 @@ public class Demo5 {
 
         for (int start = 0, end = 0; end < s.length(); end++) {
             char temp = s.charAt(end);
+            // 已经存在
             if (map.containsKey(temp)) {
+                // 更改左侧开始下标
                 start = Math.max(map.get(temp), start);
             }
-
 
             max = Math.max(end - start + 1, max);
             map.put(temp, end + 1);

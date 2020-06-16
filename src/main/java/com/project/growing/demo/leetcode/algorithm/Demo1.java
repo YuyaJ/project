@@ -1,11 +1,9 @@
 package com.project.growing.demo.leetcode.algorithm;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
- * @description: 两数之和
+ * @description: 两数之和(哈希表)
  * @author: 87799
  * 两数之和
  * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
@@ -18,22 +16,25 @@ import java.util.List;
 
 public class Demo1 {
     public static int[] twoSum(int[] nums, int target) {
-        int count = 0;
-        List<Integer> list = new ArrayList<>();
-        for(int i = 0;i < nums.length-1;i++){
-            for(int j = i+1;j < nums.length;j++){
-                count = nums[i]+nums[j];
-                if(count == target){
-                    list.add(i);
-                    list.add(j);
-                }
+
+        Map<Integer, Integer> map = new HashMap<>(16);
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
             }
+            map.put(nums[i], i);
         }
-        int[] nsz=new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            nsz[i] = list.get(i);
-        }
-        return nsz;
+        throw new IllegalArgumentException("No two sum solution");
+
+//        for(int i = 0;i < nums.length-1;i++){
+//            for(int j = i+1;j < nums.length;j++){
+//                if(nums[j] == target - nums[i]){
+//                    return new int[] {i,j};
+//                }
+//            }
+//        }
+//        throw new IllegalArgumentException("No two sum solution");
     }
 
     public static void main(String[] args) {

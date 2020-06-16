@@ -25,9 +25,8 @@ import org.slf4j.LoggerFactory;
  **/
 
 public class Demo7 {
-    private final static Logger logger = LoggerFactory.getLogger(Demo7.class);
     public static void rotate(int[][] matrix) {
-
+        // TODO
     }
 
     public static void main(String[] args) {

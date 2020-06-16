@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.perday;
 /**
  * @author 87799
  * @date 2020/6/13
- * @description: 爬楼梯
+ * @description: 爬楼梯(动态规划)
  * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
  * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
  * 注意：给定 n 是一个正整数。
@@ -24,7 +24,6 @@ package com.project.growing.demo.leetcode.perday;
 
 public class Demo14 {
     public static int climbStairs(int n) {
-        // 动态规划
         // f(x) = f(x-1) + f(x-2)
         int a = 0, b = 0, c = 0;
 
