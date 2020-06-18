@@ -3,6 +3,7 @@ package com.project.growing.demo.leetcode.offer;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @author shenya.ji.o
@@ -19,14 +20,13 @@ import java.util.Map;
 public class RepeatNumbersInArray {
     public static int findRepeatNumber(int[] nums) {
         int result = 0, length = nums.length;
-        Map<Integer, Integer> map = new HashMap<>(16);
+        Set<Integer> set = new HashSet<>();
         for (int i = 0; i < length; i++) {
 
-            if (map.containsKey(nums[i])) {
+            if (!set.add(nums[i])) {
                 result = nums[i];
                 break;
             }
-            map.put(nums[i], i);
         }
 
         return result;
