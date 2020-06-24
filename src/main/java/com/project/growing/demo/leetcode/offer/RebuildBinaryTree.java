@@ -21,6 +21,19 @@ public class RebuildBinaryTree {
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
         // TODO
 
+        int length = preorder.length;
+
+        int[] leftTree = new int[length];
+        int[] rightTree = new int[length];
+        // 前序遍历 第一个为根节点
+        // 中序遍历根节点左边为左二叉树 右边为右二叉树
+
+        TreeNode node = new TreeNode(preorder[0]);
+
+
+
+
+
         return new TreeNode(0);
     }
 
