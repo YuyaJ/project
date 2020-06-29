@@ -1,4 +1,4 @@
-package com.project.growing.demo;
+package com.project.growing.demo.basedemo;
 
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
