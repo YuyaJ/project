@@ -1,4 +1,4 @@
-package com.project.growing.demo.leetcode.atodo;
+package com.project.growing.demo.leetcode.findalgorithm;
 
 /**
  * @author shenya.ji.o
@@ -23,7 +23,7 @@ public class RotateArraySmallestNumber {
             if (numbers[mid] < numbers[right]) {
                 right = mid;
             } else if (numbers[mid] > numbers[right]){
-                left = ++mid;
+                left = mid + 1;
             } else {
                 right--;
             }
