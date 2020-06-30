@@ -1,5 +1,9 @@
 package com.project.growing.demo.leetcode.stackqueue;
 
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Stack;
+
 /**
  * @author shenya.ji.o
  * @date 2020/6/19
@@ -19,23 +23,35 @@ package com.project.growing.demo.leetcode.stackqueue;
 
 public class TwoStackToQueue {
 
-    public TwoStackToQueue(){
+    Deque<Integer> stack1;
+    Deque<Integer> stack2;
 
+    public TwoStackToQueue(){
+        stack1 = new LinkedList<>();
+        stack2 = new LinkedList<>();
     }
 
     public void appendTail(int value) {
-
+        stack1.push(value);
     }
 
     public int deleteHead() {
-
-        return 0;
+        if (stack2.isEmpty() && stack1.isEmpty()) {
+            return -1;
+        }
+        if (stack2.isEmpty()) {
+            while (!stack1.isEmpty()) {
+                stack2.push(stack1.pop());
+            }
+        }
+        return stack2.pop();
     }
 
     public static void main(String[] args) {
-        // TODO
         TwoStackToQueue obj = new TwoStackToQueue();
         obj.appendTail(1);
+        obj.appendTail(2);
         int param = obj.deleteHead();
+        System.out.println(param);
     }
 }
