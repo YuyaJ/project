@@ -1,7 +1,5 @@
 package com.project.growing.demo.leetcode.palindrome;
 
-import sun.security.util.Length;
-
 /**
  * @author shenya.ji.o
  * @date 2020/6/10

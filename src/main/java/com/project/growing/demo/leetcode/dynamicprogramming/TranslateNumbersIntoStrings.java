@@ -1,9 +1,5 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
-import com.sun.deploy.util.ArrayUtil;
-
-import java.util.Arrays;
-
 /**
  * @author shenya.ji.o
  * @date 2020/6/9
