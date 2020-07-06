@@ -27,17 +27,24 @@ package com.project.growing.demo.leetcode.dynamicprogramming;
 public class DifferentPathsTwo {
 
     public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        // TODO
+        int n = obstacleGrid.length, m = obstacleGrid[0].length;
+        int[] f = new int[m];
 
-        int rows = obstacleGrid.length,columns = obstacleGrid[0].length;
-
-        if (obstacleGrid[0][0] == 1 || obstacleGrid[rows-1][columns-1] == 1) {
-            return 0;
+        f[0] = obstacleGrid[0][0] == 0 ? 1 : 0;
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (obstacleGrid[i][j] == 1) {
+                    f[j] = 0;
+                    continue;
+                }
+                if (j - 1 >= 0 && obstacleGrid[i][j - 1] == 0) {
+                    f[j] += f[j - 1];
+                }
+            }
         }
 
-
-
-
-        return 0;
+        return f[m - 1];
     }
 
     public static void main(String[] args) {
