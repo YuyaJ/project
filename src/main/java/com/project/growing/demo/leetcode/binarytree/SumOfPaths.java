@@ -1,5 +1,8 @@
 package com.project.growing.demo.leetcode.binarytree;
 
+import com.project.growing.demo.leetcode.binarytree.treenode.TreeNode;
+import com.project.growing.utils.TreeUtils;
+
 /**
  * @author shenya.ji.o
  * @date 2020/7/7
@@ -21,7 +24,7 @@ package com.project.growing.demo.leetcode.binarytree;
 
 public class SumOfPaths {
 
-    public boolean hasPathSum(TreeNode root, int sum) {
+    public static boolean hasPathSum(TreeNode root, int sum) {
 
         if (root == null) {
             return false;
@@ -39,15 +42,10 @@ public class SumOfPaths {
     }
 
     public static void main(String[] args) {
-        Integer[] arr = {5,4,null,11,7,2,8,13,4,null,1};
-    }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) {
-            val = x;
-        }
+        int sum = 22;
+        Integer[] arr = {5,4,8,11,null,13,4,7,2,null,null,null,1};
+        TreeNode node = TreeUtils.createBinaryTreeByArray(arr, 0);
+        boolean result = hasPathSum(node, sum);
+        System.out.println(result);
     }
 }
