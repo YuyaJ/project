@@ -17,16 +17,21 @@ public class MaximumSubsequenceSum {
 
     public static int maxSubArray(int[] nums) {
         // TODO
-        int length = nums.length;
-        if (length == 0) {
-            return 0;
-        }
+        int sum = 0;
+        int max = nums[0];
 
-        int sum = nums[0];
-        int max = 0;
+//        for (int num : nums) {
+//            sum = Math.max(sum+num, num);
+//            max = Math.max(sum, max);
+//        }
 
         for (int num : nums) {
-
+            if (sum > 0) {
+                sum += num;
+            } else {
+                sum = num;
+            }
+            max = Math.max(sum, max);
         }
 
         return max;
