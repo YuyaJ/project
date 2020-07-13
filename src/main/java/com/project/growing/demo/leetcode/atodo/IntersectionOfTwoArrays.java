@@ -26,27 +26,51 @@ public class IntersectionOfTwoArrays {
 
     public static int[] intersect(int[] nums1, int[] nums2) {
 
-        Map<Integer, Integer> map1 = new HashMap<>(16);
-        Map<Integer, Integer> map2 = new HashMap<>(16);
-
-        for (int i : nums1) {
-            map1.merge(i, 1, Integer::sum);
+        if (nums1.length > nums2.length) {
+            return intersect(nums2, nums1);
         }
-        for (int i : nums2) {
-            map2.merge(i, 1, Integer::sum);
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int num : nums1) {
+            int count = map.getOrDefault(num, 0) + 1;
+            map.put(num, count);
         }
-        int idx = 0, count = 0;
-        int length = Math.min(nums1.length, nums2.length);
-        int[] out = new int[length];
-        for (Integer i : map1.keySet()) {
-            if (map2.containsKey(i)) {
-                count = Math.min(map1.get(i), map2.get(i));
-                for (int j = 0; j < count; j++) {
-                    out[idx++] = i;
+        int[] intersection = new int[nums1.length];
+        int index = 0;
+        for (int num : nums2) {
+            int count = map.getOrDefault(num, 0);
+            if (count > 0) {
+                intersection[index++] = num;
+                count--;
+                if (count > 0) {
+                    map.put(num, count);
+                } else {
+                    map.remove(num);
                 }
             }
         }
-        return Arrays.copyOf(out, idx);
+        return Arrays.copyOfRange(intersection, 0, index);
+
+//        Map<Integer, Integer> map1 = new HashMap<>(16);
+//        Map<Integer, Integer> map2 = new HashMap<>(16);
+//
+//        for (int i : nums1) {
+//            map1.merge(i, 1, Integer::sum);
+//        }
+//        for (int i : nums2) {
+//            map2.merge(i, 1, Integer::sum);
+//        }
+//        int idx = 0, count = 0;
+//        int length = Math.min(nums1.length, nums2.length);
+//        int[] out = new int[length];
+//        for (Integer i : map1.keySet()) {
+//            if (map2.containsKey(i)) {
+//                count = Math.min(map1.get(i), map2.get(i));
+//                for (int j = 0; j < count; j++) {
+//                    out[idx++] = i;
+//                }
+//            }
+//        }
+//        return Arrays.copyOf(out, idx);
     }
 
     public static void main(String[] args) {
