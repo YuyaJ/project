@@ -1,4 +1,4 @@
-package com.project.growing.demo.leetcode.atodo;
+package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
  * @author shenya.ji.o
