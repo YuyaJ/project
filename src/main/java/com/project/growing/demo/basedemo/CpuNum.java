@@ -1,7 +1,7 @@
 package com.project.growing.demo.basedemo;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  */
 public class CpuNum {
     public static void main(String[] args) {

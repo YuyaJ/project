@@ -1,7 +1,7 @@
 package com.project.growing.demo.singleton;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/2
  * @description: 静态类内部加载(线程安全)
  **/

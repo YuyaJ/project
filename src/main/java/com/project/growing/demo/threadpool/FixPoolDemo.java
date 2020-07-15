@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/28
  * @description: FixPoolDemo
  * newFixedThreadPool 线程池

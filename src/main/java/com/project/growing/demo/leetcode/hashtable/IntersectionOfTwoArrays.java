@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.hashtable;
 import java.util.*;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/13
  * @description: 两个数组的交集
  * 给定两个数组，编写一个函数来计算它们的交集。

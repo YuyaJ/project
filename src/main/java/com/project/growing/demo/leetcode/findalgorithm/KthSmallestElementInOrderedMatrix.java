@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.findalgorithm;
 import java.util.Arrays;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/3
  * @description: 有序矩阵中第K小的元素(二分查找)
  * 给定一个 n x n 矩阵，其中每行和每列元素均按升序排序，找到矩阵中第 k 小的元素。

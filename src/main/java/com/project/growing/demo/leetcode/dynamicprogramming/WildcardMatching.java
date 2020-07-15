@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/6
  * @description: 通配符匹配(动态规划)
  * 给定一个字符串 (s) 和一个字符模式 (p) ，实现一个支持 '?' 和 '*' 的通配符匹配。

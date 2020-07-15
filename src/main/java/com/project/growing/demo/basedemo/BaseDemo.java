@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/25
  * @description: 基础
  **/

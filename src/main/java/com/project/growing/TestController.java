@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.math.BigDecimal;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @description: test
  **/
 @RestController

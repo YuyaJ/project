@@ -5,7 +5,7 @@ import java.lang.management.ManagementFactory;
 import java.util.List;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/2
  * @description: JDK回收器打印
  **/

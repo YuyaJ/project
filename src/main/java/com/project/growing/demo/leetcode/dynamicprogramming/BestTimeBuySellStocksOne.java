@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/10
  * @description: 买卖股票得最佳时机(动态规划)
  * 给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。

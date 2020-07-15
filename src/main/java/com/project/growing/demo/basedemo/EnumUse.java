@@ -1,7 +1,7 @@
 package com.project.growing.demo.basedemo;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/20
  * @description: demo2
  * 枚举

@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/6
  * @description: 不同路径II(动态规划)
  * 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为“Start” ）。

@@ -1,7 +1,7 @@
 package com.project.growing.dependreplace;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  */
 public interface ICar {
     /**

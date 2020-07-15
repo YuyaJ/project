@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/15
  * @description: 不同的二叉搜索树
  * 给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
@@ -18,7 +18,7 @@ package com.project.growing.demo.leetcode.dynamicprogramming;
  *    2     1         2                 3
  **/
 
-public class DiffentBinaryTree {
+public class DifferentBinaryTree {
 
     public static int numTrees(int n) {
         //TODO

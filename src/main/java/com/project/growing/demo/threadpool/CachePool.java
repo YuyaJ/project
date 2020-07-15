@@ -3,7 +3,7 @@ package com.project.growing.demo.threadpool;
 import java.util.concurrent.*;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/28
  * @description: CachePool
  * newCachedThreadPool 线程池

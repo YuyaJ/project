@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/10
  * @description: 最佳买卖股票时机含冷冻期(动态规划)
  * 给定一个整数数组，其中第 i 个元素代表了第 i 天的股票价格 。​

@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.chararray;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/18
  * @description: 替换空格
  * 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。

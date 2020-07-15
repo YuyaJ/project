@@ -1,7 +1,7 @@
 package com.project.growing.demo.singleton;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/2
  * @description: 枚举方法(线程安全)
  **/

@@ -5,7 +5,7 @@ import lombok.*;
 import javax.validation.constraints.NotNull;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/21
  * @description: employee
  **/

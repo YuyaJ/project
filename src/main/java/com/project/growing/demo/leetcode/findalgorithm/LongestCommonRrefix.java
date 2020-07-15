@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.findalgorithm;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/15
  * @description: 最长公共前缀(二分查找)
  * 编写一个函数来查找字符串数组中的最长公共前缀。

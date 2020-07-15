@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.binarytree;
 import java.util.Arrays;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/3
  * @description: 将有序数组转换未二叉搜索树
  * 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。

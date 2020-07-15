@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/29
  * @description: 面试题 01.04-回文排列
  * 回文 去除重复的 之后 <= 1

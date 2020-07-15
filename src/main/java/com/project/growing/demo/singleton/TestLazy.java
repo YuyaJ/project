@@ -5,7 +5,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/2
  * @description: 懒汉单例模式
  **/

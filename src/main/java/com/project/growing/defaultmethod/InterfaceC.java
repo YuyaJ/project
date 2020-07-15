@@ -1,7 +1,7 @@
 package com.project.growing.defaultmethod;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  */
 public interface InterfaceC extends InterfaceA{
     /**

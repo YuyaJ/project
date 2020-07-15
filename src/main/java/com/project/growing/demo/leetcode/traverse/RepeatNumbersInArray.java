@@ -1,12 +1,10 @@
 package com.project.growing.demo.leetcode.traverse;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/17
  * @description: 数组中重复数字
  * 找出数组中重复的数字。

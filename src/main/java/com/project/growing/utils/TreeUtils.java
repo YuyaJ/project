@@ -3,7 +3,7 @@ package com.project.growing.utils;
 import com.project.growing.demo.leetcode.binarytree.treenode.TreeNode;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/7
  * @description: 二叉树工具类
  **/

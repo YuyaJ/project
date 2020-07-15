@@ -3,8 +3,8 @@ package com.project.growing.demo.leetcode.hashtable;
 import java.util.*;
 
 /**
- * @author: 87799
- * @date: 2020/6/6
+ * @author jsy
+ * @date 2020/6/6
  * @description: 每日一题-最长连续序列(哈希表)
  * 给定一个未排序的整数数组，找出最长连续序列的长度。
  * 要求算法的时间复杂度为 O(n)。

@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/29
  * @description: 每日一题-打家劫舍(动态规划)
  * 动态规划+滚动数组

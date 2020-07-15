@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/1
  * @description: 每日一题-拥有最多糖果的孩纸(枚举)
  * 给你一个数组 candies 和一个整数 extraCandies ，其中 candies[i] 代表第 i 个孩子拥有的糖果数目。

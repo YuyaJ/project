@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.simulation;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/23
  * @description: 二进制求和(模拟)
  * 给你两个二进制字符串，返回它们的和（用二进制表示）。

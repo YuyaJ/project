@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.binarytree;
 import com.project.growing.demo.leetcode.binarytree.treenode.TreeNode;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/7
  * @description: 路径总和
  * 给定一个二叉树和一个目标和，判断该树中是否存在根节点到叶子节点的路径，这条路径上所有节点值相加等于目标和。

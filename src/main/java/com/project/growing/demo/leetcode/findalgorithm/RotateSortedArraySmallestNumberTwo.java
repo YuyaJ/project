@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.findalgorithm;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/30
  * @description: 寻找旋转排序数组中的最小值 II
  * 假设按照升序排序的数组在预先未知的某个点上进行了旋转。

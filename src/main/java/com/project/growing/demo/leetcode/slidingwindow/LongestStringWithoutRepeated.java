@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/15
  * @description: 无重复字符的最长子串(滑动窗口)
  * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。

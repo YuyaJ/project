@@ -1,8 +1,8 @@
 package com.project.growing.demo.leetcode.recursive;
 
 /**
- * @author: 87799
- * @date: 2020/6/2
+ * @author jsy
+ * @date 2020/6/2
  * @description: 每日一题-求1+2+…+n(递归)
  * 求 1+2+...+n ，要求不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句（A?B:C）。
  * 示例 1：

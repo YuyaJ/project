@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.atodo;
 
 /**
- * @author 87799
+ * @author jsy
  * @date 2020/6/20
  * @description: 正则表达式匹配
  * 给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 '.' 和 '*' 的正则表达式匹配。

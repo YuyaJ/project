@@ -3,8 +3,8 @@ package com.project.growing.demo.leetcode.binarytree;
 import java.util.LinkedList;
 
 /**
- * @author: 87799
- * @date: 2020/5/31
+ * @author jsy
+ * @date 2020/5/31
  * @description: 对称二叉树(递归)
  * 给定一个二叉树，检查它是否是镜像对称的。
  * 例如，二叉树 [1,2,2,3,4,4,3] 是对称的。

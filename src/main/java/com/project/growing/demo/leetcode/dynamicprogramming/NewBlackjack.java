@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/3
  * @description: 每日一题-新21点(动态规划)
  * 爱丽丝参与一个大致基于纸牌游戏 “21点” 规则的游戏，描述如下：

@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.matrix;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/5
  * @description: 每日一题-顺时针打印矩阵
  * 输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。

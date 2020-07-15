@@ -1,7 +1,7 @@
 package com.project.growing.demo.leetcode.dynamicprogramming;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/7/1
  * @description: 最长重复子数组(动态规划)
  * 给两个整数数组 A 和 B ，返回两个数组中公共的、长度最长的子数组的长度。

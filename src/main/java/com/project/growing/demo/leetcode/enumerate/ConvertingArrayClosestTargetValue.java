@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.enumerate;
 import java.util.Arrays;
 
 /**
- * @author 87799
+ * @author jsy
  * @date 2020/6/14
  * @description: 转变数组后最接近目标值的数组和(枚举)
  * 给你一个整数数组 arr 和一个目标值 target ，请你返回一个整数 value ，使得将数组中所有大于 value 的值变成 value 后，数组的和最接近  target （最接近表示两者之差的绝对值最小）。

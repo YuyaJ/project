@@ -3,7 +3,7 @@ package com.project.growing.demo.singleton;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/6/2
  * @description: 使用CAS锁实现单例(线程安全)
  * synchronized是悲观锁，这种线程一旦得到锁，其他需要锁的线程就挂起的情况就是悲观锁。

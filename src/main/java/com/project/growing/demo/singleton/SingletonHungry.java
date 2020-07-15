@@ -3,7 +3,7 @@ package com.project.growing.demo.singleton;
 import java.io.Serializable;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/28
  * @description: 饿汉单例(线程安全)
  * 类加载时调用

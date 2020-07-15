@@ -3,7 +3,7 @@ package com.project.growing.demo.leetcode.chararray;
 import java.util.Arrays;
 
 /**
- * @author shenya.ji.o
+ * @author jsy
  * @date 2020/5/29
  * @description: 面试题 01.02-判断是否互为字符重排
  * 给定两个字符串 s1 和 s2，请编写一个程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。
