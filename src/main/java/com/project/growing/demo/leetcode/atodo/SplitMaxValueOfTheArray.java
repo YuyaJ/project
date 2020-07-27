@@ -26,7 +26,7 @@ public class SplitMaxValueOfTheArray {
     public static int splitArray(int[] nums, int m) {
         // TODO
         int length = nums.length;
-
+        
 
 
         return 0;
