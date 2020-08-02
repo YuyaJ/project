@@ -12,6 +12,7 @@ public class TreeUtils {
 
     /**
      * 数组转二叉树
+     * 前序遍历
      * @param array
      * @param index
      * @return
