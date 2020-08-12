@@ -3,9 +3,6 @@ package com.project.growing.demo.leetcode.atodo;
 import com.project.growing.demo.leetcode.binarytree.treenode.TreeNode;
 import com.project.growing.utils.TreeUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author 87799
  * @date 2020/8/8
@@ -46,21 +43,32 @@ import java.util.List;
 
 public class RestoreBinarySearchTree {
 
+    static TreeNode x, y, pre;
+
     public static void recoverTree(TreeNode root) {
-        //TODO
-        // 获得前序遍历结果
-        List<Integer> list = new ArrayList<>();
-        preTree(root, list);
-        System.out.println(list);
+        // TODO
+        // 获得中序遍历结果 中序升序排序
+        inOrder(root);
+        int temp = x.val;
+        x.val = y.val;
+        y.val= temp;
     }
 
-    public static void preTree(TreeNode root, List<Integer> list) {
+    public static void inOrder(TreeNode root) {
         if (root == null) {
             return;
         }
-        preTree(root.left, list);
-        list.add(root.val);
-        preTree(root.right, list);
+        inOrder(root.left);
+
+        if (pre != null && root.val < pre.val) {
+            y = root;
+            if (x == null) {
+                x = pre;
+            }
+        }
+
+        pre = root;
+        inOrder(root.right);
     }
 
     public static void main(String[] args) {
