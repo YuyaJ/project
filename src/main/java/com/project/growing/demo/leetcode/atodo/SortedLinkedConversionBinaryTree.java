@@ -22,15 +22,39 @@ import com.project.growing.utils.LinkUtils;
 
 public class SortedLinkedConversionBinaryTree {
 
-    public static TreeNode sortedListToBST(ListNode head) {
-        TreeNode root = new TreeNode(0);
+    static ListNode globalHead;
 
-        return root;
+    public static TreeNode sortedListToBST(ListNode head) {
+        globalHead = head;
+        int length = getLength(head);
+        return buildTree(0, length - 1);
     }
 
+    public static int getLength(ListNode head) {
+        int ret = 0;
+        while (head != null) {
+            ++ret;
+            head = head.next;
+        }
+        return ret;
+    }
+
+    public static TreeNode buildTree(int left, int right) {
+        if (left > right) {
+            return null;
+        }
+        int mid = (left + right + 1) / 2;
+        TreeNode root = new TreeNode();
+        root.left = buildTree(left, mid - 1);
+        root.val = globalHead.val;
+        globalHead = globalHead.next;
+        root.right = buildTree(mid + 1, right);
+        return root;
+    }
     public static void main(String[] args) {
         Integer[] nums = {-10, -3, 0, 5, 9};
         ListNode head = LinkUtils.createLinkedListTail(nums);
         TreeNode node = sortedListToBST(head);
+        System.out.println(node);
     }
 }
